@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+  
+ <title>Velvorax - Accelerate Your Business Growth</title>
+
+  <style>
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.premium-services {
+    background: radial-gradient(circle at center, #2e1a05 0%, #000000 70%), 
+                url('https://transparenttextures.com'); 
+    background-color: #0a0a0a;
+    color: #e0e0e0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.content-container {
+    max-width: 800px;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #d4af37; 
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+p {
+    line-height: 1.6;
+    margin: 10px 0;
+    font-size: 1.1rem;
+    color: #b0b0b0; 
+}
+
+.intro {
+    font-weight: 500;
+}
+
+.description {
+    font-size: 1rem;
+    opacity: 0.9;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #0a0a0a;
+    color: #ffffff;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 5%;
+    background: radial-gradient(circle at center, #1a1a1a 0%, #0a0a0a 100%);
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content h1 span {
+    color: #ffcc00;
+}
+
+.hero-content p {
+    color: #888;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+/* Buttons */
+.cta-btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.yellow {
+    background-color: #ffcc00;
+    color: #000;
+}
+
+.outline {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(255, 204, 0, 0.1);
+}
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    body {
+      background: #0d0d0d;
+      color: #fff;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: linear-gradient(145deg, #1a1a1a, #111);
+      border-radius: 12px;
+      padding: 20px;
+      border: 1px solid rgba(255, 80, 0, 0.2);
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      border-color: rgba(255, 80, 0, 0.6);
+      box-shadow: 0 0 20px rgba(255, 80, 0, 0.3);
+    }
+
+    .card h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+
+    .card ul {
+      list-style: none;
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    .card ul li {
+      margin-bottom: 6px;
+    }
+
+    .card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at top right, rgba(255, 80, 0, 0.15), transparent);
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .card:hover::before {
+      opacity: 1;
+    }
+
+    .icon {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #ff4d00;
+    }
+  </style>
+</head>
+<header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="">
+                <span>Velvorax</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#" class="active">Our Services</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Partner Program</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <a href="#" class="get-started-btn">Login Now</a>
+                <a href="#" class="get-started-btn">Get Started</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Accelerate Your Business Growth with <span>Velvorax</span></h1>
+                <p>We provide advanced CRM and AI automation solutions designed to streamline operations, increase conversions, and scale your business globally.</p>
+                <div class="hero-cta">
+                    <button class="btn-primary">Get Started</button>
+                    <button class="btn-secondary">Book a Consultation</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="">
+            </div>
+            </section>
+  </main>
+    <section class="premium-services">
+        <div class="content-container">
+            <h1>Our Premium Services</h1>
+            <p class="intro">
+                Velvorax delivers high-end business solutions that combine CRM, automation, and global scaling strategies.
+            </p>
+            <p class="description">
+                Our services are built to help businesses reduce manual work, improve efficiency, and maximize revenue through intelligent systems.
+            </p>
+        </div>
+    </section>
+      
+
+
+  <div class="container">
+    <div class="grid">
+
+      <div class="card">
+        <div class="icon">📊</div>
+        <h3>CRM Implementation</h3>
+        <ul>
+          <li>Complete CRM setup</li>
+          <li>Lead and deal management</li>
+          <li>Pipeline creation & optimization</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="icon">🤖</div>
+        <h3>AI Automation Solutions</h3>
+        <ul>
+          <li>WhatsApp automation</li>
+          <li>Email automation workflows</li>
+          <li>Lead nurturing system</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="icon">📈</div>
+        <h3>Lead Generation System</h3>
+        <ul>
+          <li>Website lead capture</li>
+          <li>Landing page integration</li>
+          <li>Social media automation</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="icon">📦</div>
+        <h3>Sales Pipeline Optimization</h3>
+        <ul>
+          <li>Drag & drop pipeline</li>
+          <li>Deal tracking system</li>
+          <li>Conversion optimization</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="icon">💳</div>
+        <h3>Payment & Subscription Setup</h3>
+        <ul>
+          <li>Online payment integration</li>
+          <li>Subscription management</li>
+          <li>Automated billing system</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="icon">🧾</div>
+        <h3>Invoice Automation</h3>
+        <ul>
+          <li>Auto invoice generation</li>
+          <li>Email invoice delivery</li>
+          <li>Payment tracking system</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="icon">🌍</div>
+        <h3>Global Partner System Setup</h3>
+        <ul>
+          <li>Partner onboarding system</li>
+          <li>Dashboard creation</li>
+          <li>Commission tracking</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="icon">⚙️</div>
+        <h3>Business Automation Consulting</h3>
+        <ul>
+          <li>Strategy planning</li>
+          <li>Workflow design</li>
+          <li>Complete business system setup</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
